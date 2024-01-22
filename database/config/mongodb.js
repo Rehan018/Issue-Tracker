@@ -1,10 +1,10 @@
 import { MongoClient } from 'mongodb';
 
-const url = 'mongodb://localhost:27017/';
+const url = 'mongodb+srv://test:test@cluster0.cbdyt.mongodb.net/?retryWrites=true&w=majority&appName=issueTracker';
 
 async function getEmpData() {
     const client = await MongoClient.connect(url);
-    const connection = client.db('issueTracker'); 
+    const connection = client.db(); 
     return connection.collection('IssueTracker'); 
 }
 
