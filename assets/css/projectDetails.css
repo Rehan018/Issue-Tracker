@@ -1,0 +1,124 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, margin, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a basic style to the body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; /* White background color */
+    color: #000; /* Black font color */
+  }
+  
+  /* Style for the filter section */
+  #filter {
+    background-color: #fff; /* Dark background color */
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Style for the filter form */
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Style for radio buttons */
+  .form-check {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-check-input {
+    margin-right: 5px;
+  }
+  
+  /* Style for the submit button */
+  .btn-primary {
+    background-color: #6c757d; /* Grey color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for the submit button */
+  .btn-primary:hover {
+    background-color: #495057; /* Darker grey color on hover */
+  }
+  
+  /* Style for the project details section */
+  .projectDetailsMain {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Style for individual project details */
+  .projectDetailsDiv {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  /* Hover effect for project details cards */
+  .projectDetailsDiv:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for project titles */
+  .projectDetailsDiv h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for project descriptions */
+  .projectDetailsDiv small {
+    color: #555;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for project authors */
+  .projectDetailsDiv p {
+    color: #777;
+  }
+  
+  /* Style for the bug box section */
+  #bugBox {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #000;
+  }
+  
+  /* Style for bug titles */
+  #bugBox h1 {
+    color: #dc3545;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for individual bugs in the bug box */
+  #bugBox div {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  /* Font Awesome icons styling */
+  .fa-bug {
+    color: #dc3545;
+    margin-right: 5px;
+  }
+  

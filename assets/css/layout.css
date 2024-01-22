@@ -1,0 +1,45 @@
+/* Apply a basic reset to remove default margin and padding */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a box-sizing border-box to all elements */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Set a default font family */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style the overall layout */
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-color: ghostwhite; /* Set the background color */
+  }
+  
+  /* Style the header */
+  #header {
+    background-color: #007bff; /* Set the background color of the header */
+    color: white; /* Set text color in the header */
+    padding: 10px; /* Add padding to the header */
+  }
+  
+  #header a {
+    color: white; /* Set link color in the header */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 15px; /* Add margin to the right of links */
+  }
+  
+  #header a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Add more styles as needed for your specific layout */
+  
+  

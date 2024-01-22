@@ -1,0 +1,49 @@
+/* Apply a basic reset to remove default margin and padding */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* Apply styles to the navigation header */
+  .navHeader {
+    background-color: #333; /* Set a background color */
+    color: white; /* Set text color */
+    padding: 10px; /* Add padding to the header */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the items in the header */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .headerSpan {
+    font-size: 1.5rem; /* Set font size */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    color: white; /* Set text color */
+  }
+  
+  .btn {
+    padding: 8px 15px; /* Add padding to the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }
+  
+  .btn-light {
+    background-color: #f8f9fa; /* Set background color for the light button */
+    color: #007bff; /* Set text color for the light button */
+    margin-right: 5px; /* Add margin to the right of the button */
+  }
+  
+  /* Style the magnifying glass icon */
+  .fa-magnifying-glass::before {
+    content: "\f002"; /* Use the Unicode character for the magnifying glass icon */
+    font-family: "Font Awesome 6 Solid"; /* Specify the Font Awesome font family */
+    margin-right: 5px; /* Add margin to the right of the icon */
+  }
+  
+  /* Style the Project Details button */
+  .btn-light:hover {
+    background-color: #d6e2f9; /* Set a different background color on hover */
+  }
+  

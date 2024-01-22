@@ -1,0 +1,59 @@
+/* Apply a basic reset to remove default margin and padding */
+body, h1, h2, h3, p, ul, li, a, main, span, i {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the mainProject */
+  .mainProject {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow projects to wrap to the next line */
+    gap: 20px; /* Add some space between projects */
+    padding: 20px; /* Add padding to the main container */
+  }
+  
+  /* Style the addProject link */
+  #addProject {
+    text-decoration: none; /* Remove underline from the link */
+    background-color: #28a745; /* Set background color for the link */
+    color: white; /* Set text color */
+    padding: 10px; /* Add padding to the link */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }
+  
+  #addProject:hover {
+    background-color: #218838; /* Set a different background color on hover */
+  }
+  
+  /* Style the noProject message */
+  #noProject {
+    color: #6c757d; /* Set text color for the noProject message */
+    font-style: italic; /* Italicize the text */
+  }
+  
+  /* Style the project div */
+  .project {
+    background-color: #f8f9fa; /* Set background color for projects */
+    padding: 15px; /* Add padding to projects */
+    border: 1px solid #d6d8db; /* Add a border to projects */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    width: 300px; /* Set a fixed width for projects */
+  }
+  
+  /* Style the project title */
+  .project h1 {
+    font-size: 1.2rem; /* Set font size for project titles */
+  }
+  
+  /* Style the project author */
+  .project p {
+    color: #6c757d; /* Set text color for project authors */
+    margin-top: 5px; /* Add margin at the top of project authors */
+  }
+  
+  /* Style the project on hover */
+  .project:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+  }
+  

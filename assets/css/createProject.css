@@ -1,0 +1,46 @@
+/* Apply a basic reset to remove default margin and padding */
+body, h1, h2, h3, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the createProjectSection */
+  .createProjectSection {
+    padding: 20px; /* Add padding to the section */
+  }
+  
+  /* Style the createProjectForm */
+  .createProjectForm {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: auto; /* Center the form */
+  }
+  
+  /* Style form elements */
+  .form-label {
+    font-weight: bold; /* Set font weight for form labels */
+  }
+  
+  .form-control {
+    width: 100%; /* Make form controls full-width */
+    padding: 8px; /* Add padding to form controls */
+    margin-bottom: 15px; /* Add margin at the bottom of form controls */
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing for textareas */
+  }
+  
+  /* Style the Create Issue button */
+  .btn-danger {
+    background-color: #dc3545; /* Set background color for the danger button */
+    color: white; /* Set text color */
+    padding: 10px; /* Add padding to the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; /* Set a different background color on hover */
+  }
+  
