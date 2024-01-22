@@ -1,4 +1,4 @@
-const PORT = 8000;
+const PORT = 3000;
 import express from 'express';
 const app = express();
 import router from './route/index.js';
