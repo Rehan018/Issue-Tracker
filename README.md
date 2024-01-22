@@ -1,4 +1,4 @@
-### Project Title: Issue Tracker [Demo(http://13.48.43.237:3000/issueTracker)]
+### Project Title: Issue Tracker [Link to Demo](http://13.48.43.237:3000/issueTracker)
 
 #### Introduction
 
